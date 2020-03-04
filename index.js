@@ -5,7 +5,7 @@ function generateList(array){//eslint-disable-line
     for (let i = 1; i <= arr.length; i++) {
         const $li = document.createElement('li');
         $li.textContent = i;
-        $ul.appendChild($li);
+        $ul.append($li);
     }
     return $ul.outerHTML;
 }
